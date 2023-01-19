@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="code.js"></script>
+        <title> Challenge One Criptografia </title>
+    </head> 
+    <body>
+        <div class="container">
+            <div class="logo">
+                <img class="logoimg" src="img/logo.png">
+                <h1 class="title">Codificador e decodificador de mensagens.</h1>
+            </div>
+            <div class="left">
+                <input class="text-input" id="inputTexto" type="text" placeholder="Insira seu texto aqui...">
+
+            </div>
+            <div class="right">
+                <img src="img/boneco.png" id="boneco">
+                <h1 id="texto">Nenhuma mensagem encontrada...</h1>
+                <textarea id="texto2" name="name" rows="8" cols="80">Digite um texto que você deseja criptografar ou descriptografar.</textarea>
+                <button type="button" id="copiar" name="button" onclick="copiar()">Copiar</button>
+            </div>
+            <div class="left-button">
+                <p>Utilize apenas letras minúsculas e sem acento.</p>
+                <button type="button" id="btn-criptografar" onclick="encriptar()">Criptogradar</button>
+                <button type="button" id="btn-descriptografar" onclick="descriptografar()">Descriptografar</button>
+            </div>
+        </div>
+    </body>   
+</html>
